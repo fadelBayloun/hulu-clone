@@ -1,3 +1,5 @@
+/* Header Section */
+
 header {
   background-image: url("../assets/images/main.jpeg");
   background-size: contain;
@@ -104,6 +106,8 @@ header {
 .header-links a {
   color: white;
 }
+
+/* Main Section */
 
 .sections {
   padding: 5%;
@@ -253,4 +257,80 @@ header {
 .livetv-layer-note {
   padding-top: 5%;
   padding-left: 20%;
+}
+
+/* Footer Section */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8eaed;
+}
+
+.footer-container {
+  max-width: 1250px;
+  margin: auto;
+  width: 100%;
+  padding: 4rem 0;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  border-bottom: 3px solid #a8afbd;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.link-subcontainer p {
+  color: gray;
+  padding: 0 32px 8px 0;
+  font-size: 14px;
+  margin-right: 25px;
+}
+
+.links-divider {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
+
+.links-divider > p {
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+.category-container {
+  display: flex;
+}
+
+.social-media {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+.social-media img {
+  padding-right: 32px;
+  padding-top: 1.25rem;
+}
+
+.copy-right {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.copy-right p {
+  font-size: 12px;
+  color: gray;
+  cursor: pointer;
+}
+
+.links-black {
+  color: rgb(88, 88, 88);
 }
